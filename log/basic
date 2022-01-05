@@ -1,0 +1,20 @@
+PS C:\Users\JIYEON\studying> git init
+Reinitialized existing Git repository in C:/Users/JIYEON/studying/.git/
+PS C:\Users\JIYEON\studying> 
+PS C:\Users\JIYEON\studying> git commit -m "git start"
+[main (root-commit) 77d63d7] git start
+ 1 file changed, 4 insertions(+)
+ create mode 100644 log/log210105
+PS C:\Users\JIYEON\studying> git branch -M main
+PS C:\Users\JIYEON\studying> git remote add origin https://github.com/goodmayonnaise/studying.git
+error: remote origin already exists.
+PS C:\Users\JIYEON\studying> git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 289 bytes | 24.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/goodmayonnaise/studying
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.

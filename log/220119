@@ -1,2 +1,7 @@
 
+[계획]
+
 1. 프로젝트 정하기
+- 네이버 감성분류 데이터로 1d cnn을 사용해 감성 분류 하기 
+
+2. projecs/SentimentClassification 디렉토리에 각자의 이름으로 모델 생성!
